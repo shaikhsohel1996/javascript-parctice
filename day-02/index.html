@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>on off blub partice</p>
+    <button onclick="handleonbuttonclick()">
+        on
+    </button>
+    <img id="image" src="off blub.jpeg" alt="" height="250" width="250">
+    <button onclick=" handleoffbuttonclick() ">
+        off
+    </button>
+
+    <p>
+        change car image on click
+    </p>
+    <button onclick="handlecarcolorbuttonclick()">
+        change colo
+    </button>
+    <img id="car image" src="not color car.jpeg" alt="" height="200" width="200">
+
+    <button onclick="handlenormalcarcolorbuttonclick()">
+    normal color
+</button>
+
+    <script>
+function handleonbuttonclick() {
+    document.getElementById('image').src='on blub.jpeg';
+}
+
+function handleoffbuttonclick() {
+    document.getElementById('image').src='off blub.jpeg';
+}
+
+function handlenormalcarcolorbuttonclick(){
+    document.getElementById('car image').src='not color car.jpeg';
+}
+function handlecarcolorbuttonclick(){
+    document.getElementById('car image').src='color car.jpeg';
+}
+    </script>
+</body>
+</html>
