@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Variables</h1>
+
+<p>In this example, x, y, and z are undeclared.</p>
+<p>They are automatically declared when first used.</p>
+
+<p id="demo"></p>
+<p id="demo-1"></p>
+<p id="demo-2"></p>
+
+<h1>JavaScript Variables</h1>
+
+<p>In this example, price1, price2, and total are variables.</p>
+
+<p id="demo-3"></p>
+
+<h1>JavaScript Variables</h1>
+
+<p>Strings are written with quotes.</p>
+<p>Numbers are written without quotes.</p>
+
+<p id="demo-4"></p>
+
+<h1>JavaScript Variables</h1>
+
+<p>You can declare many variables in one statement.</p>
+
+<p id="demo-5"></p>
+
+<script>
+    
+ var x = 5;
+ var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+let a = 10;
+let b = 5;
+let c = b + a;
+document.getElementById("demo-1").innerHTML =
+"The value of z is: " + c;
+
+const d = 13;
+const e = 13;
+const f = d + e;
+document.getElementById('demo-2').innerHTML ="the value of z is : " + f;
+
+const price1 = 9;
+const price2 = 8;
+let total = price1 +price2;
+document.getElementById('demo-3').innerHTML = "the value of totel price is " + total ;
+
+const pi = 1.4;
+let person = "shaikh sohel ";
+let answer = "yes i am shaikh sohel ";
+document.getElementById('demo-4').innerHTML = pi + "<br>" +person + "<br>" + answer;
+
+let persone = "shaikh sohel ",age = 24 ,carName = "bmw"
+    document.getElementById('demo-5').innerHTML ="information of owner" + "<br>" + persone +"<br>"+ age +"<br>" + carName ;
+
+</script>
+
+</body>
+</html>
