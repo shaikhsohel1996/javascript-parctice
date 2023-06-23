@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let conter=0;
+        conter ++;
+        console.log('conter',conter); 
+        conter +=5;
+        console.log('conter',conter);
+        conter +=2;
+        console.log('conter',conter);
+        conter -=2;
+        console.log("conter",conter);
+        document.getElementById('demo').innerHTML = conter;
+        
+        // + operatr---if give string--concstrnstion
+        const fistName = 'shaikh' 
+        const lastName = 'sohel' 
+        const fullName = fistName +" "+lastName;
+        document.getElementById('demo').innerHTML = fullName;
+
+        //= assignament operator
+        //== is comparision operator---true/false
+        const x=5;
+        console.log(x==5);
+        console.log(x==8);
+        console.log(x==='5');
+        //!=is not equal to oprttor 
+        console.log(x !=5);
+        console.log(x !=8);
+        console.log(x !='5');
+        //!= is not equal value nd not equal type operator
+        console.log(x !==5);
+        console.log(x !==8);
+        console.log(x !=='5');
+        // > is greater then.
+        console.log(x > 5);
+        console.log(x > 8);
+        console.log(x >'4');
+        // >=is greater then or equal to operator
+        console.log(x >= 5);
+        console.log(x >= 8);
+        console.log(x >='4');
+        // < is lessthen operator
+        console.log(x < 5);
+        console.log(x < 8);
+        console.log(x <'5');
+        //<= is less then equal to operator
+        console.log(x <= 5);
+        console.log(x <= 8);
+        console.log(x <='5');
+     </script>
+</body>
+</html>
