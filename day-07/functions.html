@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>function example</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+     //A JavaScript function is a block of code designed to perform a particular task.
+
+     //A JavaScript function is executed when "something" invokes it (calls it).
+
+     function myFastName(agr1,agr2){
+        console.log('myFastName',agr1,agr2);
+     return agr1 * agr2;
+     }
+     const result = myFastName(4,7);
+     console.log("the result is :", result);
+     const result2 = myFastName(50,3);
+     console.log("the result is :",result2);
+     document.getElementById('demo').innerHTML =myFastName (3,6);
+     console.log(demo);
+      
+     function toCelsius(f) {
+        return (5/9) * (f-32);
+     } 
+     //const text="the tempracher"+" "+ toCelsius(60)+"celsius";
+     document.getElementById('demo1').innerHTML = "the tempracher is "+toCelsius (60)+"celsius";
+     
+    </script>
+</body>
+</html>
