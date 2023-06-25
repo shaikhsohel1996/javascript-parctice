@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!--<p>
+   <h1>JavaScript String slice()</h1> 
+ slice() extracts a part of a string and returns the extracted part in a new string.
+
+ The method takes 2 parameters: start position, and end position (end not included)
+   </p> -->
+   <!--<p>JavaScript String substring()
+ substring() is similar to slice().
+
+ The difference is that start and end values less than 0 are treated as 0 in substring().</p>-->
+<!--JavaScript String substr()
+substr() is similar to slice().
+
+The difference is that the second parameter specifies the length of the extracted part.-->
+  <p id="demo">
+
+  </p>
+
+  <script>
+    const text = 'abcdefghijklmnopqrstuvwxyz';
+    console.log(text.length);
+    const extratedText= text.slice( 0 , 10, );
+    console.log(extratedText);
+    const part = "Apple, Banana, Kiwi";
+    // string slice
+    const extractppart= part.slice(7);
+    console.log(extractppart);
+    // string substring
+    const part2= part.substring(9);
+    console.log(part2);
+    //string subsr()
+    const str= part.substr(0,13);
+    console.log(str);
+    
+  </script>
+
+
+</body>
+</html> 
