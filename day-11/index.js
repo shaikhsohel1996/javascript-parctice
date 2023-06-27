@@ -1,0 +1,10 @@
+const str ="hello world";
+document.getElementById('demo').innerHTML = str;
+let fistName = "shaikh";
+let lastName = "sohel";
+let text = `${fistName} ${lastName}`;
+document.getElementById('demo-1').innerHTML = text;
+let price = 10;
+let vat   = 0.25;
+const totle = `total : ${(price*(1+vat)).toFixed('2')}`;
+document.getElementById('demo-2') .innerHTML = totle;
